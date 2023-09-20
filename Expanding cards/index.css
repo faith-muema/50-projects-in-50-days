@@ -1,0 +1,43 @@
+body{
+    background-color: gainsboro;
+}
+.main{
+    display: flex;
+    margin: auto;
+   justify-content: center;
+}
+.mydiv{
+    margin: 0.5rem;
+    background-color:black;
+    height: 30rem;
+    width: 20rem;
+    border-radius:50px;
+}
+#div1{
+    background-image: url("https://images.pexels.com/photos/356968/pexels-photo-356968.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 140rem;
+    /* border-radius: 5%; */
+
+}
+#div2{
+    background-image: url("https://images.pexels.com/photos/1496372/pexels-photo-1496372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#div3{
+    background-image: url("https://images.pexels.com/photos/2402995/pexels-photo-2402995.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#div4{
+    background-image: url("https://images.pexels.com/photos/1005417/pexels-photo-1005417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#div5{
+    background-image: url("https://images.pexels.com/photos/4215113/pexels-photo-4215113.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
