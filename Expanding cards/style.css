@@ -1,25 +1,38 @@
 body{
     background-color: gainsboro;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 .main{
     display: flex;
     margin: auto;
    justify-content: center;
+   overflow: hidden;
+   position: relative;
 }
 .mydiv{
     margin: 0.5rem;
     background-color:black;
-    height: 30rem;
-    width: 20rem;
+    height: 80vh;
+    width: 10rem;
     border-radius:50px;
+    cursor: pointer;
+    position: relative;
+    
+
 }
 #div1{
     background-image: url("https://images.pexels.com/photos/356968/pexels-photo-356968.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 140rem;
-    /* border-radius: 5%; */
 
+    
+
+}
+.active{
+    width: 50rem;
+    transition: 0.1ms ease-in;
 }
 #div2{
     background-image: url("https://images.pexels.com/photos/1496372/pexels-photo-1496372.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
@@ -41,3 +54,15 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.onchange{
+    width: 140rem;
+}
+.onchange1{
+    width: 20rem;
+}
+.mydiv h3{
+    position: absolute;
+    color: #ffff;
+
+}
+
